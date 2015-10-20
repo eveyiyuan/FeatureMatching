@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eve/Documents/CS132/HW2/Part4/feature_matching.cpp
+cstdio
+-
+opencv2/opencv.hpp
+-
+opencv2/highgui/highgui.hpp
+-
+math.h
+-
+string
+-
+
